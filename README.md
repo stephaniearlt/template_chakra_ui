@@ -48,3 +48,44 @@ export default tseslint.config({
   },
 })
 ```
+## How to Get Started
+
+1. Clone the repository: Clone this project to your local machine using the following command:
+
+git clone https://github.com/your-username/your-repository.git
+
+2. Navigate into the project folder: Change into the project directory:
+
+cd your-repository
+
+3. Install dependencies: Install all required dependencies with:
+
+npm install
+
+4. Start the development server: Launch the Vite development server:
+
+npm run dev
+
+You can then view the application at http://localhost:5173.
+
+## Folder Structure
+
+Here is the basic structure of the project:
+
+/src
+  /components
+    /Demo          <-- Use this folder to verify everything is working properly.
+  /assets
+  App.tsx
+  main.tsx
+/vite.config.ts
+/package.json
+README.md
+
+The /Demo folder contains basic components you can use to verify that everything is working as expected.
+
+## Customization
+
+You can begin developing your app by modifying or adding components in the src/components folder. Chakra UI is already configured, so you can start using its components directly in your application.
+
+Good luck with your project! 🚀
